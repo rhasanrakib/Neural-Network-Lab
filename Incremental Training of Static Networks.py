@@ -17,8 +17,8 @@ def train(weight, learn, target, **kargs):
             print("Actual Output=",actual_output,"Error = ",error )
             #weight_change = learn*error*kargs[i][j]
             weight_change = np.transpose(learn*error*kargs[i][j])
-            weight=weight+weight_change
-            bias += learn*error
+            weight=weight_change+weight
+            bias = learn*error+bias
 
 
 if __name__ == "__main__":
