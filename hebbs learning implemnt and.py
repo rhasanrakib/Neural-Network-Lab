@@ -34,4 +34,5 @@ for j in range(iteration):
     for p in range(n):
         delta = learning_rate*input_vector[p]*output
         weight_vector[p] = weight_vector[i]+delta
+
         

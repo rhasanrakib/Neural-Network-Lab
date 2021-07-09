@@ -8,7 +8,6 @@ def train(weight, learn, target, **kargs):
     weight_change = 0
     len_kargs = 0
     bias = 0
-
     for i in kargs:
         len_kargs = len(kargs[i])
         for j in range(len_kargs):
