@@ -1,5 +1,5 @@
 def activation(n):
-    1 if n>0 else 0
+    return 1 if n>0 else 0
 
 def calculate_eqn(input1,input2,weight,bias):
    h1= activation(weight[0]*input1+weight[2]*input2+bias[0])
