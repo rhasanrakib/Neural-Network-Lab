@@ -9,6 +9,7 @@ def net(*args):
     lst3 = []
     for i in args:
         lst1.append([i[0]])
+        lst2.append([i[1]])
             
     #print(lst1)
     for i in range(len(lst1)):
@@ -30,7 +31,7 @@ def net(*args):
             temp.append(lst2[i])
             temp.append(lst2[i-1])
             lst3.append(temp.copy())
-            print(lst3)
+            #print(lst3)
             temp.clear()
     result=[]
     
