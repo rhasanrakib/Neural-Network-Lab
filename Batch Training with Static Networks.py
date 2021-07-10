@@ -19,7 +19,7 @@ def train(weight, learn, target,epoch, **kargs):
                 # print("weight = ", weight)
                 bias_accumulator += learn*error
                 actual_output = (weight.dot(kargs[i][j]))+bias
-                #error = target[j]-actual_output[0][0]
+                error = target[j]-actual_output[0][0]
                 print('error: ',error)
                 #weight_change = learn*error*kargs[i][j]
                 weight_change = np.transpose(learn*error*kargs[i][j])
