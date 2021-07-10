@@ -17,4 +17,20 @@ if __name__ == "__main__":
 
     y=calculate_eqn(_input[0],_input[1],_weight,_bias)
     print(y)
+'''
+input=0 0
+weight = 20 -20 20 -20 20 20
+bias = -10 30 -30
 
+input=1 0
+weight = 20 -20 20 -20 20 20
+bias = -10 30 -30
+
+input=0 1
+weight = 20 -20 20 -20 20 20
+bias = -10 30 -30
+
+input=1 1
+weight = 20 -20 20 -20 20 20
+bias = -10 30 -30
+'''
