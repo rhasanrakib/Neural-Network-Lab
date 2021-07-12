@@ -29,7 +29,7 @@ In neural network we basically train and test different data. In this repository
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install numpy.
 
 ```bash
 pip install numpy
